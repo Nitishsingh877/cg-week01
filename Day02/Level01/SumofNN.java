@@ -19,13 +19,8 @@ public class  SumofNN {
 		System.out.println("The sum of "+number+" natural numbers is "+ sumOfNaturalNumber);
 	}
 	else {	
-		System.out.println("The number "+number+"is not a natural number");
-		
+		System.out.println("The number "+number+"is not a natural number");	
 	}
-	
-	
-
-
         // Close the scanner
         input.close();
     }
