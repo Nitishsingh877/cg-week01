@@ -1,0 +1,22 @@
+import java.util.*;
+
+public class Coursefee {
+	
+ 	public static void main(String[] args) {
+
+//creating variables for fee and discounts
+		int fee = 125000;
+		int discountPercent = 10; 
+
+//code for discounted amounts and price.
+		int discount = fee/discountPercent;
+		int discountedAmount = discount;
+ 		int discountedPrice = fee-discount;
+//output
+ 
+		
+     		
+     		System.out.println("The discount amount is INR " +discountedAmount + "and final discounted fee is INR "+ discountedPrice
+);
+     }
+}
