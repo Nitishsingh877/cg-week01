@@ -21,9 +21,6 @@ public class  divideChocolates  {
 	int	remainingChocolates = numberOfchocolates%numberOfChildren;
 		
 
-                 
- 	
-
         // Printing the results
 
         System.out.println("The number of chocolates each child gets is " + numberOfChoclategotEach + "and the number of remaining chocolates are " + remainingChocolates);  
