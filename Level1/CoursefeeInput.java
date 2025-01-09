@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class s {
+public class CoursefeeInput {
 	
  	public static void main(String[] args) {
 
