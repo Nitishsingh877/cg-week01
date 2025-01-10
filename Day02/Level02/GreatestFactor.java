@@ -19,11 +19,6 @@ public class GreatestFactor {
 }
 
 	System.out.println(greatestFactor);
-	
-
-
-
-
         // Close the scanner
         input.close();
     }
