@@ -12,6 +12,12 @@ public class SumOfNNEQ {
 	double number = input.nextDouble();
 	double total = 0.0;
 
+	//manual cal
+	double result = (number*(number+1))/2;
+	System.out.println("sum is using while manual : " + result);
+
+
+
 
         // taking while loop
 	while (number>0) {
@@ -19,10 +25,6 @@ public class SumOfNNEQ {
 	number--;
 	}
 	System.out.println("sum is using while loop : " + total);
-
-	//manual cal
-	double result = (number*(number+1))/2;
-	System.out.println("sum is using while manual : " + result);
 
 	// Close the scanner
         input.close();
