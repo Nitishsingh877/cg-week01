@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class SumOfNNEQ {
+    public static void main(String[] args) {
+
+        // Create a Scanner object for user input
+        Scanner input = new Scanner(System.in);
+
+        // Take user input for the starting value of the Summ
+
+	System.out.println("Enter the  number for the Sum: ");
+	number = input.nextDouble();
+
+	System.out.println("Enter numbers to sum them up. Enter 0 to stop.");
+	        
+
+        // taking while loop
+	do {
+	System.out.println("Enter the  number for the Sum: ");
+	number = input.nextDouble();
+	total += number;
+	}
+
+	while (number != 0);
+
+	System.out.println("Sum of entered numbers: " + total);
+	
+
+	       	// Close the scanner
+        input.close();
+    }
+}
