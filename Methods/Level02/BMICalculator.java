@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class BMICalculator {
 
     // Method to calculate BMI for all members and store it in the 2D array
-    public static void calculateBMI(double[][] data) {
+    
+	public static void calculateBMI(double[][] data) {
         for (int i = 0; i < data.length; i++) {
             double heightInMeters = data[i][1] / 100; // Convert height from cm to meters
             data[i][2] = data[i][0] / (heightInMeters * heightInMeters); // BMI formula
