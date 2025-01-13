@@ -1,2 +1,5 @@
 *.class
 *_DS_Store
+**/*.iml
+*.idea/
+
