@@ -31,7 +31,6 @@ import java.util.Scanner;
                 System.out.printf("%-10s %-15s%n", row[0], row[1]);
             }
         }
-
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
             System.out.println("Enter a string:");
@@ -46,5 +45,4 @@ import java.util.Scanner;
             sc.close();
         }
     }
-
 
