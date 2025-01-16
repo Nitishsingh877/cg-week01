@@ -6,7 +6,7 @@ public class uniqueCharFrequency {
     public static char[] uniqueCharacters(String text) {
         int[] freq = new int[256];
         int uniqueCount = 0;
-
+//find frequency
         for (int i = 0; i < text.length(); i++) {
             char ch = text.charAt(i);
             if (freq[ch] == 0) {
